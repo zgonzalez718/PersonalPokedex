@@ -7,9 +7,6 @@ class Trainer{
       return pokemon;}
     get(name){
       return pokemon[0];}
-
-    let zee = new Trainer("Zavocado","Bronx");
-    console.log(zee);
     }
 
 axios.get("http://fizal.me/pokeapi/api/v2/name/tangrowth.json")
