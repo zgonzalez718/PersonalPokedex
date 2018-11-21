@@ -9,7 +9,7 @@ class Trainer{
       return pokemon[0];}
     }
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/tangrowth.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/tangrowth.json")
     .then(insert)
       function insert(response){
         let pokename = response.data.species.name;
@@ -37,7 +37,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/tangrowth.json")
 
       }
 
-      axios.get("http://fizal.me/pokeapi/api/v2/name/roselia.json")
+      axios.get("https://fizal.me/pokeapi/api/v2/name/roselia.json")
           .then(insertTwo)
             function insertTwo(response){
               let pokename = response.data.species.name;
@@ -65,7 +65,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/tangrowth.json")
 
             }
 
-    axios.get("http://fizal.me/pokeapi/api/v2/name/vileplume.json")
+    axios.get("https://fizal.me/pokeapi/api/v2/name/vileplume.json")
                 .then(insertThree)
                   function insertThree(response){
                     let pokename = response.data.species.name;
